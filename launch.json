@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "SqueekToken",
+    "name": "Squeek",
+    "symbol": "SQK",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "3500000000000000000000",
+    "remainderTo": "0xd0116c7e933029a0abfa388757a3d7a7686ee681"
+  },
+  "notes": "SqueekToken is a fixed-supply ERC-20 (OpenZeppelin ERC20) named Squeek, symbol SQK, 18 decimals. Its constructor takes no arguments and mints the whole supply of 1,000,000,000 SQK (1000000000000000000000000000 minor units) once to msg.sender, the launch factory. There is no further minting, no owner, and no privileged function; transfers are plain with no fee, tax or burn, so the factory's distributor, pool seed and remainder flows move exact amounts. The launch has no application contracts. The pool pairs with IMD at the launch policy's 1.25% fee."
+}

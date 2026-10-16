@@ -1,0 +1,14 @@
+# Build artifacts
+out/
+cache/
+broadcast/
+
+# Leftover of the vendoring step: the sources were copied to lib/openzeppelin,
+# this directory only holds an undeletable empty .gitmodules stub.
+lib/openzeppelin-contracts/
+
+# Scratch space for local checks
+test/scratch/
+
+# Harness bookkeeping
+lib/.claude/
